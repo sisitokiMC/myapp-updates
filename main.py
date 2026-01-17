@@ -15,7 +15,7 @@ def main():
     root.title(f"My Awesome App v{get_current_version()}")
     root.geometry("400x200")
 
-    label = tk.Label(root, text=f"Hello from version {get_current_version()}!", font=("Arial", 16))
+    label = tk.Label(root, text=f"Hello from version {get_current_version()}! (Updated!)", font=("Arial", 16))
     label.pack(pady=50)
 
     root.mainloop()
